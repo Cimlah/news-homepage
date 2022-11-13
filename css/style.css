@@ -41,7 +41,8 @@ p {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
-    width: 100vw;
+    max-width: 100vw;
+    max-width: 100%;
     min-height: 100vh;
 
     display: flex;
