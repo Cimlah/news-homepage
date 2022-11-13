@@ -1,0 +1,46 @@
+@media (orientation: landscape) {
+    .content-width {
+        grid-template-columns: 2fr 1fr;
+        padding: 4rem;
+    }
+
+    nav {
+        grid-column: 1 / 3;
+    }
+
+    .section-3 {
+        grid-column: 1 / 3;
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .attribution {
+        grid-column: 1 / 3;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: fit-content 1fr 1fr;
+        gap: 2rem;
+    }
+
+    main picture {
+        grid-column: 1 / 3;
+    }
+
+    main h1 {
+        grid-row: 2 / 4;
+        font-size: 4rem;
+    }
+
+    main button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1300px) {
+    main button {
+        width: 100%;
+    }
+}
