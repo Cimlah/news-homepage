@@ -187,3 +187,20 @@ main button {
     height: 100%;
     object-fit: cover;
 }
+
+
+main button:hover {
+    background-color: var(--colour-very-dark-blue);
+}
+
+nav li:hover {
+    color: var(--colour-soft-orange);
+}
+
+.section-2 h3:hover {
+    color: var(--colour-soft-orange);
+}
+
+.section-3 h3:hover {
+    color: var(--colour-soft-orange);
+}
