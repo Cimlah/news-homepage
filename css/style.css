@@ -45,6 +45,8 @@ a {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
+    background-color: var(--colour-off-white);
+
     max-width: 100vw;
     max-width: 100%;
     min-height: 100vh;
