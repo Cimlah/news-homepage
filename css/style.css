@@ -191,16 +191,20 @@ main button {
 
 main button:hover {
     background-color: var(--colour-very-dark-blue);
+    cursor: pointer;
 }
 
 nav li:hover {
     color: var(--colour-soft-orange);
+    cursor: pointer;
 }
 
 .section-2 h3:hover {
     color: var(--colour-soft-orange);
+    cursor: pointer;
 }
 
 .section-3 h3:hover {
     color: var(--colour-soft-orange);
+    cursor: pointer;
 }
