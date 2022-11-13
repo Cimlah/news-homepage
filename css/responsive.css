@@ -1,4 +1,8 @@
 @media (orientation: landscape) {
+    .mobile-nav {
+        display: none;
+    }
+
     .content-width {
         grid-template-columns: 2fr 1fr;
         width: 80%;
@@ -36,6 +40,23 @@
 
     main button {
         width: 50%;
+    }
+
+
+
+    .desktop-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .desktop-nav ul {
+        list-style-type: none;
+        color: var(--colour-dark-grayish-blue);
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
 }
 

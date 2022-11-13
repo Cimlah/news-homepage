@@ -21,6 +21,10 @@ nav, main, section {
     width: 100%;
 }
 
+.desktop-nav {
+    display: none;
+}
+
 h1 {
     color: var(--colour-very-dark-blue);
     font-size: 2.6rem;
@@ -120,7 +124,7 @@ main button {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
 }
 
