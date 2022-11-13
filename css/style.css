@@ -11,9 +11,65 @@
     font-family: 'Inter', sans-serif;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: var(--colour-very-dark-blue);
+    font-size: 2.6rem;
+    line-height: 1.5ch;
+}
+
 p {
     font-size: 15px;
+    color: var(--colour-dark-grayish-blue);
+    line-height: 2.5ch;
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.mobile-nav {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main button {
+    padding: 1rem 2rem 1rem 2rem;
+    border: none;
+    color: var(--colour-off-white);
+    background-color: var(--colour-soft-red);
+    font-weight: 600;
+    letter-spacing: 0.5ch;
+}
