@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-with-flexbox-and-grid-MOdZpr_ZoU)
 - [Live Site URL](https://cimlah.github.io/news-homepage/)
 
 ## Author
