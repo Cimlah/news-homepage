@@ -1,7 +1,7 @@
 @media (orientation: landscape) {
     .content-width {
         grid-template-columns: 2fr 1fr;
-        padding: 4rem;
+        width: 80%;
     }
 
     nav {
