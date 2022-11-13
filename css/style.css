@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+nav, main, section {
+    width: 100%;
+}
+
 h1 {
     color: var(--colour-very-dark-blue);
     font-size: 2.6rem;
@@ -43,7 +47,6 @@ body {
 }
 
 .mobile-nav {
-    width: 100%;
     height: fit-content;
 
     display: flex;
@@ -52,8 +55,6 @@ body {
 }
 
 main {
-    width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -72,4 +73,39 @@ main button {
     background-color: var(--colour-soft-red);
     font-weight: 600;
     letter-spacing: 0.5ch;
+}
+
+.section-2 {
+    background-color: var(--colour-very-dark-blue);
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.section-2 h2 {
+    color: var(--colour-soft-orange);
+}
+
+.section-2 h3 {
+    color: var(--colour-off-white);
+    margin-bottom: 0.5rem;
+}
+
+.section-2 p {
+    color: var(--colour-grayish-blue);
+    opacity: 0.8;
+}
+
+.section-2 hr {
+    border: 0.5px solid var(--colour-grayish-blue);
+    opacity: 0.8;
+}
+
+.text-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
