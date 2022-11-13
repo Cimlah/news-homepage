@@ -52,11 +52,14 @@
 
     .desktop-nav ul {
         list-style-type: none;
-        color: var(--colour-dark-grayish-blue);
 
         display: flex;
         align-items: center;
         gap: 1rem;
+    }
+
+    .desktop-nav a {
+        color: var(--colour-dark-grayish-blue);
     }
 }
 

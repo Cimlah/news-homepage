@@ -37,6 +37,10 @@ p {
     line-height: 2.5ch;
 }
 
+a {
+    text-decoration: none;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -113,10 +117,13 @@ main img {
 main button {
     padding: 1rem 2rem 1rem 2rem;
     border: none;
-    color: var(--colour-off-white);
     background-color: var(--colour-soft-red);
     font-weight: 600;
     letter-spacing: 0.5ch;
+}
+
+main a {
+    color: var(--colour-off-white);
 }
 
 .section-2 {
@@ -195,7 +202,7 @@ main button:hover {
     cursor: pointer;
 }
 
-nav li:hover {
+nav a:hover {
     color: var(--colour-soft-orange);
     cursor: pointer;
 }
